@@ -6,7 +6,7 @@ interface ProjectProps {
 }
 
 const Project: React.FC<ProjectProps> = ({ description, videoUrl }) => (
-  <div className="my-8 text-white">
+  <div className="my-8 text-secondary bg-primary">
     <p className="text-lg leading-relaxed mb-4">{description}</p>
     <div className="aspect-w-16 aspect-h-9">
       <iframe

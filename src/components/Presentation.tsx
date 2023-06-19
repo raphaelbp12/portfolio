@@ -1,29 +1,28 @@
 import React from "react";
 
-const Presentation = () => (
-  <section
-    id="presentation"
-    className="flex items-center justify-center h-screen bg-gray-800 text-white"
-  >
-    <div className="flex-1 p-10">
+const Presentation: React.FC = () => {
+  return (
+    <section
+      className="bg-secondary text-primary flex flex-col md:flex-row justify-center items-center py-20 md:py-36"
+      id="presentation"
+    >
       <img
-        src="path_to_your_image"
-        alt="Your Name"
-        className="h-full w-full object-cover"
+        className="w-48 h-48 md:w-72 md:h-auto rounded-full mx-auto md:mx-0 md:mr-6"
+        src="/profile-pic.png"
+        alt="Your Profile"
       />
-    </div>
-    <div className="flex-1 p-10">
-      <p className="text-lg leading-relaxed">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum.
-      </p>
-    </div>
-  </section>
-);
+      <div className="text-center md:text-left mt-12 md:mt-0">
+        <h1 className="text-4xl lg:text-6xl font-bold mb-4">
+          Hello, I'm John Doe!
+        </h1>
+        <p className="text-xl lg:text-2xl">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi congue
+          feugiat elit vitae dapibus. Quisque aliquet ex id ex commodo, nec
+          lacinia est blandit.
+        </p>
+      </div>
+    </section>
+  );
+};
 
 export default Presentation;
