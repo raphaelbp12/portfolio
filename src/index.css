@@ -3,8 +3,11 @@
 @import 'tailwindcss/utilities';
 
 :root {
-  --primary: #805acb;
-  --secondary: #b340b3;
+  /* --primary: #ff476f; */
+  /* --primary: #f25b0a; */
+  /* --secondary: #283345; */
+  --primary: #283345;
+  --secondary: #ff476f;
 }
 
 body {
