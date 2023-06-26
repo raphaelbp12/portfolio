@@ -16,6 +16,14 @@ const Header: React.FC = () => {
         <div className="flex items-center">
           <a
             rel="noreferrer"
+            href="/cv-jun-2023.pdf"
+            target="_blank"
+            className="mx-2 lg:mx-4 flex items-center"
+          >
+            <span className="ml-2">Career</span>
+          </a>
+          <a
+            rel="noreferrer"
             href="https://www.linkedin.com/in/raphael-parreira-911a04103/"
             target="_blank"
             className="mx-2 lg:mx-4 flex items-center"

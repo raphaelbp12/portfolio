@@ -23,6 +23,10 @@ const Presentation: React.FC = () => (
         >
           Idle Game
         </a>
+        . Check my{" "}
+        <a rel="noreferrer" target="_blank" href="/cv-jun-2023.pdf">
+          Curriculum Vitae
+        </a>
         .
       </p>
     </div>
