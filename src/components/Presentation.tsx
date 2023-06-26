@@ -6,7 +6,7 @@ const Presentation: React.FC = () => (
     className="flex flex-col md:flex-row items-center justify-center my-12"
   >
     <img
-      src="/profile-pic.png"
+      src="/profile-pic-zoomed.png"
       alt="Raphael Parreira"
       className="w-48 h-48 md:w-64 md:h-64 object-cover rounded-full mb-4 md:mb-0 md:mr-8"
     />
