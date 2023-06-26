@@ -13,7 +13,7 @@ const App = () => (
         <Project
           title="Sacerdos Idle Game"
           subtitle="Stack: ReactJS, Tailwind, Typescript, .Net Core, PostgreSQL"
-          description="This app was a fun activity to explore more about the ChatGPT power. In this project, I acted as a Product Owner and had the GPT as the programmer. It worked flawlessly; a great experience. This is an open-source project, and anyone can copy and modify it."
+          description="I needed to improve my skills on .Net Core. Because of that, I started to create this game. It was a way of having fun and developing myself simultaneously. Then, I got passionate about the project and kept growing it. Check it live."
           imageUrl="/sacerdos.png"
           liveUrl="https://www.sacerdosidle.com/"
         />
