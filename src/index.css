@@ -6,10 +6,14 @@
   /* --primary: #ff476f; */
   /* --primary: #f25b0a; */
   /* --secondary: #283345; */
-  --primary: #283345;
-  --secondary: #ff476f;
+  --primary: #fff;
+  --secondary: #142055;
 }
 
 body {
   font-family: 'Roboto Mono', monospace;
+}
+
+a {
+  text-decoration: underline;
 }
