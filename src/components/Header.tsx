@@ -15,14 +15,18 @@ const Header: React.FC = () => {
         </div>
         <div className="flex items-center">
           <a
+            rel="noreferrer"
             href="https://www.linkedin.com/in/raphael-parreira-911a04103/"
+            target="_blank"
             className="mx-2 lg:mx-4 flex items-center"
           >
             <AiOutlineLinkedin className="text-2xl" />
             <span className="ml-2 hidden lg:inline">LinkedIn</span>
           </a>
           <a
+            rel="noreferrer"
             href="https://github.com/raphaelbp12"
+            target="_blank"
             className="mx-2 lg:mx-4 flex items-center"
           >
             <AiOutlineGithub className="text-2xl" />
