@@ -12,7 +12,7 @@ const App = () => {
         <section id="projects">
           <h1 className="text-2xl font-bold mb-4">Personal Projects</h1>
           <Project
-            title="Sacerdos Idle Game"
+            title="Sacerdos Idle Game (2022~now)"
             subtitle="Stack: ReactJS, Tailwind, Typescript, .Net Core, PostgreSQL"
             description="I needed to improve my skills on .Net Core. Because of that, I started to create this game. It was a way of having fun and developing myself simultaneously. Then, I got passionate about the project and kept growing it. Check it live."
             imageUrl="/sacerdos.png"
@@ -25,16 +25,22 @@ const App = () => {
             sourceUrl="https://github.com/raphaelbp12/portfolio"
           />
           <Project
-            title="Awedash"
+            title="Awedash (2017~2020)"
             subtitle="Stack: VueJS, NodeJS, MongoDB"
             description="Awedash started to be developed in April 2019. This project heavily uses external APIs (Youtube, Twitter, Instagram, Facebook, etc.). Since it is not live anymore, I made a quick video so that you can check what it was about."
             videoUrl="https://www.youtube.com/embed/EmjznB9xuo4"
           />
           <Project
-            title="Skinsmine"
+            title="Skinsmine (2015~2016)"
             subtitle="Stack: Ruby on Rails, jQuery, PostgreSQL"
             description="Skinsmine is a project developed in 2015 with a friend. It was a Counter-Strike betting website, where you could bet items earned in-game. For that, it had a heavy usage of Steam API. You can watch the video where I show the project."
             videoUrl="https://www.youtube.com/embed/lxydKaaWu4o"
+          />
+          <Project
+            title="Robotics Competition - IEEE VSS (2014)"
+            subtitle="Stack: C++, OpenCV, XBee, Embedded Software"
+            description="This project was done by a group of friends, where we competed in the Brazilian National Championship. It consists of fully automated small robots working together to play a football match. I was mainly responsible for the Computer Vision System (OpenCV), the UI, and part of the strategy."
+            videoUrl="https://www.youtube.com/embed/_jUkWXr8gWY"
           />
           {/* Add as many Project components as you have projects, each with their own description and videoUrl props. */}
         </section>
